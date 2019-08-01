@@ -1,4 +1,6 @@
-#!/usr/bin/
+
+#!/usr/bin/env bats
+
 
 @test "Default" {
   run bash ex04.sh Hello resources/text_1.txt
